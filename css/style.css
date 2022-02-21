@@ -1,1 +1,79 @@
 /* Denna fil skall innehålla din CSS kod */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+    }
+    
+    
+    
+    nav{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 10vh;
+    background-color:wheat;
+    font-family: sans-serif;
+    }
+    
+    
+    .burger{
+    margin-right: 50px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    }
+    
+    .navlinks{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    height: 90vh;
+    top: -90vh;
+    background-color: cornflowerblue;
+    align-items: center;
+    width: 20%;
+    transition: all 1s;
+    }
+    
+    .navlinks li {
+    list-style: none;
+    }
+    
+    .navlinks a {
+    color: darkgreen;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    }
+    
+    
+    .burger div{
+    width:25px;
+    height: 3px;
+    background-color: darkgreen;
+    margin: 5px;
+    border-radius: 10%;
+    transition: all 0.3s;
+    }
+    
+    .toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+    }
+    
+    .toggle .line2{
+    opacity: 0;
+    }
+    
+    .toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+    
+    }
+    
+    .navActive {
+        transform: translateY(100vh);
+    }
+    
