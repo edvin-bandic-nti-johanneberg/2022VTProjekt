@@ -113,3 +113,27 @@ a {
 
 
 }
+
+
+#wrapper{
+display: grid;
+width: 100vh;
+
+}
+
+
+#search{
+border: 1px solid black;
+height: 50px;
+}
+
+#front{
+    border: 1px solid black;
+    height: 400px;
+    margin-top: 60px;
+}
+
+#pic1{
+width: 100vh;
+height: 100vh;
+}
