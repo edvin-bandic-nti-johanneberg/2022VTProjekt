@@ -128,7 +128,7 @@ height: 50px;
 
 #front{
     border: 1px solid black;
-    height: 550px;
+    height: 70vh;
     margin-top: 60px;
     background-image: url("../img/front\ picture\ unsplash.jpg");
     background-size:cover;
