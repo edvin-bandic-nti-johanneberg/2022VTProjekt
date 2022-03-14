@@ -72,7 +72,7 @@ a {
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
-        position: fixed;
+        position:fixed;
         left: -100%;
         top: 5rem;
         flex-direction: column;
@@ -128,7 +128,7 @@ height: 50px;
 
 #front{
     border: 1px solid black;
-    height: 550px;
+    height: 70vh;
     margin-top: 60px;
     background-image: url("../img/front\ picture\ unsplash.jpg");
     background-size:cover;
@@ -140,17 +140,66 @@ height: 50px;
 background-color: blue;
 height: 400px;
 margin-top: 60px;
+display: flex;
+align-items: center;
 }
 
 #sneak{
-height: 100px;
+height: 50vh;
 background-color:red;
 width: 50%;
+margin-right: 10px;
+display: flex;
+flex-direction:column;
+align-items: center;
 }
 
 #hat{
-height: 100px;
+height: 50vh;
 background-color:green;
 width: 50%;
+margin-left: 10px;
+display: flex;
+flex-direction:column;
+align-items: center;
+ }
+    
+#snek{
+width: 200px;
+height: 300px;
+}
+
+#shop{
+border: 1px solid black;
+font-size: 3rem;
+display: flex;
+justify-content: center;
+margin:7px ;
+border-radius: 10px;
+}
+
+#text1{
+display: flex;
+justify-content: center;
+font-size: 3rem;
+}
+
+#snek2{
+    width: 200px;
+height: 300px;
     }
     
+    #shop2{
+    border: 1px solid black;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin:7px ;
+    border-radius: 10px;
+    }
+    
+    #text2{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    }
