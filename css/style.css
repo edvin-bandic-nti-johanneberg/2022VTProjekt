@@ -128,7 +128,6 @@ a {
 
 #wrapper{
 display: grid;
-width: 71vh;
 
 }
 
@@ -226,7 +225,7 @@ box-shadow:grey 5px 5px 10px;
     height: 40vh;
 background-image: url("../img/keagan-henman-xPJYL0l5Ii8-unsplash.jpg");
 background-size: cover;
-margin: 15px;
+margin: 10px;
 box-shadow: grey 5px 5px 10px;
     }
 
@@ -307,6 +306,7 @@ font-size:x-large;
 #sok{
 width: 30px;
 height: 30px;
+margin: 10px;
 }
 
 #men{
@@ -339,5 +339,5 @@ width: 40px;
 height: 40px;
 position: absolute;
 top: 5px;
-right: 15px;
+right: 10px;
 }
