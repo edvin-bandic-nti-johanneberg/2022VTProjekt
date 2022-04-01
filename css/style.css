@@ -7,7 +7,8 @@
 }
 
 body{
-background-color: aliceblue;
+background-image:url("../img/kiwihug-zGZYQQVmXw0-unsplash.jpg");
+background-size: cover;
 }
 
 html {
@@ -25,6 +26,8 @@ a {
 
 .header{
     border-bottom: 1px solid #E2E8F0;
+    display: flex;
+    align-items: center;
 }
 
 .navbar {
@@ -36,6 +39,7 @@ a {
 
 .hamburger {
     display: none;
+
 }
 
 .bar {
@@ -52,14 +56,16 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nav-item {
     margin-left: 5rem;
 }
 
+
 .nav-link{
-    font-size: 1.6rem;
+    font-size: 3rem;
     font-weight: 400;
     color: #475569;
 }
@@ -69,6 +75,7 @@ a {
 }
 
 .nav-logo {
+    margin-top: 10px;
     font-size: 2.1rem;
     font-weight: 500;
     color: #482ff7;
@@ -82,6 +89,7 @@ a {
         flex-direction: column;
         background-color: #fff;
         width: 100%;
+        height:50%;
         text-align: center;
         transition: 0.3s;
         box-shadow:
@@ -129,14 +137,18 @@ width: 71vh;
 border: 1px solid black;
 height: 50px;
 font-size: large;
+display: flex;
+align-items: center;
 }
 
 #front{
-    border: 1px solid black;
+   
     height: 70vh;
     margin-top: 60px;
     background-image: url("../img/front\ picture\ unsplash.jpg");
     background-size:cover;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 
@@ -212,8 +224,10 @@ box-shadow:grey 5px 5px 10px;
 
     #bild{
     height: 40vh;
-background-color: #482ff7;
+background-image: url("../img/keagan-henman-xPJYL0l5Ii8-unsplash.jpg");
+background-size: cover;
 margin: 15px;
+box-shadow: grey 5px 5px 10px;
     }
 
     h1{
@@ -238,8 +252,10 @@ justify-content: center;  }
 
 #bild2{
     height: 40vh;
-background-color: red;
+background-image: url("../img/markus-spiske-jddw6iA31sE-unsplash.jpg");
+background-size: cover;
 margin: 15px;
+box-shadow: grey 5px 5px 10px;
     }
 
 
@@ -278,4 +294,46 @@ font-size: x-large;
 footer{
 border: solid black 1px;
 
+}
+
+#tit{
+display: flex;
+justify-content: right;
+font-size:x-large;
+}
+
+#sok{
+width: 30px;
+height: 30px;
+}
+
+#men{
+font-size: x-large;
+border: 1px solid white;
+border-radius: 10px;
+margin: 7px;
+display: flex;
+justify-content: center;
+color: white;
+}
+
+
+#women{
+font-size: x-large;
+border: 1px solid white;
+border-radius: 10px;
+margin: 7px;
+display: flex;
+justify-content: center;
+color:white;
+}
+
+
+#cart2{
+width: 40px;
+height: 40px;
+display: flex;
+position: absolute;
+top: 5px;
+right: 15px;
 }
