@@ -7,7 +7,7 @@
 }
 
 body{
-background-image:url("../img/kiwihug-zGZYQQVmXw0-unsplash.jpg");
+background-image:url("../img/white-body.jpg");
 background-size: cover;
 }
 
@@ -127,10 +127,6 @@ a {
 }
 
 
-#wrapper{
-display: grid;
-
-}
 
 
 #search{
@@ -142,9 +138,9 @@ align-items: center;
 }
 
 #front{
-    height: 70vh;
+    height: 80vh;
     margin-top: 60px;
-    background-image: url("../img/front\ picture\ unsplash.jpg");
+    background-image: url("../img/guy-girl-car.jpg");
     background-size:cover;
     display: flex;
     flex-direction: column-reverse;
@@ -162,7 +158,7 @@ align-items: center;
 #front3{
     height: 70vh;
     margin-top: 40px;
-    background-image: url("../img/chris-murray-PXVQ7SNqdME-unsplash.jpg");
+    background-image: url("../img/girls.jpg");
     background-size:cover;
     display: flex;
     flex-direction: column-reverse;
@@ -171,7 +167,7 @@ align-items: center;
 #front4{
     height: 90vh;
     margin-top: 40px;
-    background-image: url("../img/pedram-normohamadian-_q4zr9i_IAs-unsplash.jpg");
+    background-image: url("../img/guys.jpg");
     background-size:cover;
     display: flex;
     flex-direction: column-reverse;
@@ -242,7 +238,7 @@ box-shadow:grey 5px 5px 10px;
 
     #bild{
     height: 40vh;
-background-image: url("../img/keagan-henman-xPJYL0l5Ii8-unsplash.jpg");
+background-image: url("../img/tshirts.jpg");
 background-size: cover;
 margin: 12px;
 box-shadow: grey 5px 5px 10px;
@@ -295,7 +291,7 @@ margin-bottom: 15px;
 
 #bild2{
     height: 40vh;
-background-image: url("../img/markus-spiske-jddw6iA31sE-unsplash.jpg");
+background-image: url("../img/winter-coats.jpg");
 background-size: cover;
 margin: 12px;
 box-shadow: grey 5px 5px 10px;
@@ -451,7 +447,7 @@ display: flex;
 #tshirt{
 width:45%;
 height: 300px;
-background-image: url("../img/budka-damdinsuren-IrQmtib-ER4-unsplash.jpg");
+background-image: url("../img/girl-tshirt.jpg");
 background-size: cover;
 box-shadow:grey 5px 5px 10px;
 }
@@ -459,7 +455,7 @@ box-shadow:grey 5px 5px 10px;
 #dress{
     width:45%;
     height: 300px;
-    background-image: url("../img/tamara-bellis-8Aq_zfMHPbU-unsplash.jpg");
+    background-image: url("../img/red-dress.jpg");
     background-size: cover;
     box-shadow:grey 5px 5px 10px;
 }
@@ -467,7 +463,7 @@ box-shadow:grey 5px 5px 10px;
 #jeans{
     width:45%;
     height: 300px;
-    background-image: url("../img/zuzana-ruttkay-_lCXkFVcm-A-unsplash.jpg");
+    background-image: url("../img/girl-denim.jpg");
     background-size: cover;
     box-shadow:grey 5px 5px 10px;
 }
@@ -475,7 +471,7 @@ box-shadow:grey 5px 5px 10px;
 #shoe{
     width:45%;
     height: 300px;
-    background-image: url("../img/laura-chouette-EZXKn9P2scc-unsplash.jpg");
+    background-image: url("../img/black-shoes.jpg");
     background-size: cover;
     box-shadow:grey 5px 5px 10px;
 }
@@ -510,7 +506,7 @@ color: black;
 #jeans2{
     width:45%;
     height: 300px;
-    background-image: url("../img/maxwell-nelson-IH0_6CZ2OK4-unsplash.jpg");
+    background-image: url("../img/white-denim.jpg");
     background-size: cover;
     box-shadow:grey 5px 5px 10px;
 }
@@ -519,7 +515,7 @@ color: black;
 #shoe2{
     width:45%;
     height: 300px;
-    background-image: url("../img/maureen-de-wit-cEot_30k978-unsplash.jpg");
+    background-image: url("../img/reebok.jpg");
     background-size: cover;
     box-shadow:grey 5px 5px 10px;
 }
@@ -528,7 +524,7 @@ color: black;
 #shorts{
     width:45%;
     height: 300px;
-    background-image: url("../img/kristino-boxers-4R0bv6aa6DA-unsplash.jpg");
+    background-image: url("../img/yellow-shorts.jpg");
     background-size: cover;
     background-position:center;
     box-shadow:grey 5px 5px 10px;
@@ -538,7 +534,7 @@ color: black;
 #tshirt2{
     width:45%;
     height: 300px;
-    background-image: url("../img/florencia-simonini-PDZAMYvduVk-unsplash.jpg");
+    background-image: url("../img/guy-tshirt.jpg");
     background-size: cover;
     box-shadow:grey 5px 5px 10px;
     }
@@ -613,3 +609,54 @@ hr{
 }
 
 
+@media only screen and (min-width: 768px){
+
+
+#tit{
+display: none;
+}
+
+
+
+#wrapperc{
+display: grid;
+grid-template-areas: 
+'ca h2'
+'my su'
+'my or'
+'ft ft'
+;
+
+}
+
+#check{
+grid-area: my;
+margin: 20px;
+}
+
+#check2{
+grid-area: su;
+margin: 20px;
+}
+
+h2{
+grid-area: h2;
+
+}
+
+footer{
+    grid-area: ft;
+}
+
+#ca{
+grid-area: ca;
+
+}
+
+#order{
+grid-area: or;
+
+}
+
+
+}
