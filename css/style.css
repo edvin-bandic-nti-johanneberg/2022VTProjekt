@@ -616,7 +616,37 @@ hr{
 display: none;
 }
 
+.checkout{
+visibility: hidden;
 
+}
+
+.frunki{
+color: black;
+font-size: 3rem;
+}
+
+#cart2{
+margin: 10px;
+
+}
+
+
+#wrapperi{
+display: grid;
+grid-template-areas:
+'sr sr'
+'fr fr '
+'fr fr'
+'fr2 fr2'
+'h12 h12'
+'sum wi'
+'sum wi'
+'ft ft'
+
+;
+
+}
 
 #wrapperc{
 display: grid;
@@ -656,6 +686,64 @@ grid-area: ca;
 #order{
 grid-area: or;
 
+}
+
+#serch{
+grid-area: sr;
+
+}
+
+#winter{
+    grid-area: wi;
+}
+
+#summer{
+    grid-area: sum;
+}
+
+#h12{
+    grid-area: h12;
+}
+
+#front2{
+    grid-area: fr2;
+}
+
+#front{
+background-image: url("../img/redhair.jpg");
+background-size:1500px;
+background-position:top;
+grid-area: fr;
+display: flex;
+justify-content: center;
+}
+
+
+#women{
+    font-size: x-large;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    color:black;
+    background-color: whitesmoke;
+    width: 500px;
+    margin-left: 50px;
+}
+
+#men{
+font-size: x-large;
+border: 1px solid white;
+border-radius: 10px;
+margin: 7px;
+display: flex;
+justify-content: center;
+color:black;
+background-color: whitesmoke;
+margin-bottom: 30px;
+width: 500px;
+margin-left: 50px;
 }
 
 
