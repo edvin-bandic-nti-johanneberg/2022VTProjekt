@@ -12,8 +12,7 @@ background-size: cover;
 }
 
 html {
-    font-size: 62.5%;
-    font-family:"Nanum Gothic" , sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 li {
@@ -66,7 +65,7 @@ a {
 
 
 .nav-link{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
     color:black;
 }
@@ -190,7 +189,7 @@ margin-left: 10px;
 display: flex;
 flex-direction:column;
 align-items: center;
- }
+}
     
 #snek{
 width: 200px;
@@ -201,7 +200,7 @@ box-shadow:grey 5px 5px 10px;
 
 #shop{
 border: 1px solid black;
-font-size: 3rem;
+font-size: 2rem;
 display: flex;
 justify-content: center;
 margin:7px ;
@@ -211,7 +210,7 @@ border-radius: 10px;
 #text1{
 display: flex;
 justify-content: center;
-font-size: 3rem;
+font-size: 2rem;
 }
 
 #snek2{
@@ -222,7 +221,7 @@ box-shadow:grey 5px 5px 10px;
     
     #shop2{
     border: 1px solid black;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     margin:7px ;
@@ -232,7 +231,7 @@ box-shadow:grey 5px 5px 10px;
     #text2{
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
     }
 
 
@@ -274,7 +273,7 @@ margin: 20px;
 }
 
     #title{
-font-size: 50px;
+font-size: 40px;
 display: flex;
 justify-content: center;
 
@@ -282,7 +281,7 @@ justify-content: center;
 
 
 #title2{
-font-size: 50px;
+font-size: 40px;
 display: flex;
 justify-content: center; 
 margin-bottom: 15px;
@@ -357,6 +356,7 @@ justify-content: center;
 color:black;
 background-color: whitesmoke;
 margin-bottom: 30px;
+padding-top: 2px;
 }
 
 
@@ -369,6 +369,7 @@ display: flex;
 justify-content: center;
 color:black;
 background-color: whitesmoke;
+padding-top: 2px;
 }
 
 #sale{
@@ -441,6 +442,8 @@ display: flex;
     justify-content: center;
     align-items: center;
     display: flex;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-left: 85px;
 }
 
 
@@ -450,6 +453,7 @@ height: 300px;
 background-image: url("../img/girl-tshirt.jpg");
 background-size: cover;
 box-shadow:grey 5px 5px 10px;
+position: sticky;
 }
 
 #dress{
@@ -458,6 +462,7 @@ box-shadow:grey 5px 5px 10px;
     background-image: url("../img/red-dress.jpg");
     background-size: cover;
     box-shadow:grey 5px 5px 10px;
+    position: sticky;
 }
 
 #jeans{
@@ -466,6 +471,7 @@ box-shadow:grey 5px 5px 10px;
     background-image: url("../img/girl-denim.jpg");
     background-size: cover;
     box-shadow:grey 5px 5px 10px;
+    position: sticky;
 }
 
 #shoe{
@@ -474,6 +480,7 @@ box-shadow:grey 5px 5px 10px;
     background-image: url("../img/black-shoes.jpg");
     background-size: cover;
     box-shadow:grey 5px 5px 10px;
+    position: sticky;
 }
 
 #item{
@@ -609,12 +616,15 @@ hr{
 }
 
 
+
+
 @media only screen and (min-width: 768px){
 
 
 #tit{
 display: none;
 }
+
 
 .checkout{
 visibility: hidden;
@@ -623,7 +633,7 @@ visibility: hidden;
 
 .frunki{
 color: black;
-font-size: 3rem;
+font-size: 2rem;
 }
 
 #cart2{
@@ -688,7 +698,7 @@ grid-area: or;
 
 }
 
-#serch{
+.serch{
 grid-area: sr;
 
 }
@@ -746,5 +756,159 @@ width: 500px;
 margin-left: 50px;
 }
 
+#wrapperw{
+display: grid;
+grid-template-areas: 
+'hd hd hd hd'
+'sr sr sr sr'
+'h15 h15 h15 h15'
+'fr3 fr3 fr3 fr3'
+'fr3 fr3 fr3 fr3'
+'h13 h13 h13 h13'
+'cl cl cl cl'
+'he he he he'
+'h14 h14 h14 h14'
+'it it it it'
+'it it it it'
+'ft2 ft2 ft2 ft2'
+
+
+;
+
 
 }
+
+#ft2{
+grid-area: ft2;
+}
+
+#items{
+grid-area: it;
+}
+
+#h13{
+grid-area: h13;
+
+}
+
+#droplist{
+padding-left: 250px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#help{
+grid-area: he;
+}
+
+#h14{
+grid-area: h14;
+}
+
+#h15{
+grid-area: h15;
+
+}
+
+#front3{
+grid-area: fr3;
+
+}
+
+#clothes{
+grid-area: cl;
+
+}
+
+#front3{
+background-position: center;
+
+}
+
+.tex{
+display: flex;
+justify-content:space-evenly;
+}
+
+
+#tshirt{
+width: 200px;
+
+}
+
+#dress{
+width: 200px;
+
+}
+
+#jeans{
+width: 200px;
+
+}
+
+#shoe{
+width: 200px;
+
+}
+
+#tshirt2{
+width: 200px;
+
+}
+
+#shorts{
+width: 200px;
+
+}
+
+#jeans2{
+width: 200px;
+}
+
+#shoe2{
+width: 200px;
+}
+
+#h15{
+grid-area:h15 ;
+}
+
+#front4{
+grid-area: fr4;
+
+}
+
+#ft3{
+grid-area: ft3;
+}
+
+.header{
+grid-area:hd;
+}
+
+#wrapperm{
+grid-template-areas: 
+'hd hd hd hd'
+'sr sr sr sr'
+'h15 h15 h15 h15' 
+'fr4 fr4 fr4 fr4'  
+'fr4 fr4 fr4 fr4' 
+'h13 h13 h13 h13'
+'cl cl cl cl'
+'he he he he'
+'it it it it'
+'it it it it'
+'ft3 ft3 ft3 ft3'
+
+
+
+
+
+
+
+;
+
+}
+
+
+}
+
